@@ -1,0 +1,102 @@
+/* css id="correct-theme-css" */
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+
+    font-family: Arial, sans-serif;
+
+    padding: 40px;
+}
+
+/* CONTAINER */
+.container {
+    width: 60%;
+
+    margin: auto;
+
+    background-color: #111827;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    border: 1px solid #38bdf8;
+}
+
+/* HEADING */
+h1 {
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #38bdf8;
+}
+
+/* LABELS */
+label {
+    font-weight: bold;
+}
+
+/* DROPDOWNS */
+select {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    background-color: #1e293b;
+
+    color: #e2e8f0;
+
+    border: 1px solid #38bdf8;
+
+    border-radius: 5px;
+}
+
+/* BUTTON */
+button {
+    background-color: #38bdf8;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    background-color: #0ea5e9;
+}
+
+/* OUTPUT SECTION */
+#roadmap-output {
+    margin-top: 30px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #38bdf8;
+}
+
+/* LIST ITEMS */
+li {
+    margin-bottom: 10px;
+}
+
